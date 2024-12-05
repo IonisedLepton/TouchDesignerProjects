@@ -1,0 +1,25 @@
+## December 05, 2024
+
+* Really liking the effect of bloom on the striations. 
+
+* But i've gotta find a way to make the striations more controllable. 
+	- Some controls that would lend well to being visualised with music
+	- Right now it is too noise like
+
+* I'm thinking next for striations I would wanna try,
+	- running it through feedback maybe. Not too hopeful that this will be good, but worth a shot
+	- compositing multiple striations
+
+* Maybe for making striations controllable, I don't necessary need to make it 'controllable' at the source, but instead given how it is right now, I can process it through 'effects' allowing it to be controllable, for eg compositing it in a controllable way
+	- for eg, comping it with the ramp phaser makes it very controllable and good
+	- similarly it can maybe comped with panels
+
+* The Ramp phaser pattern is very cool too.
+	- It would look fantastic at high rates with arpeggios or tremolos
+	- very hypnotic
+
+* The point cloud with the basic Calibration image is looking so so good
+	- I've gotta find some way of harnessing and making this work for my goals
+
+* Point Cloud is actually not looking too good with striations
+
