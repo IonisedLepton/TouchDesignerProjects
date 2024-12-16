@@ -13,3 +13,4 @@
 	- this means that the main texture does not get transformed according to the uv map of each object - i.e. doesn't shrink to fill only the object
 	- I chose this cause it looks better due to the objects all having different sizes
 	- but if I do want to actually make stuff that is shrunk to the uv map of the object, I can just do that within the object texture on its own, and composite in add mode
+
