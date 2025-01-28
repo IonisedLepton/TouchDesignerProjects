@@ -1,0 +1,14 @@
+## January 28, 2025
+
+* The workflow could be:
+* Constrain the complexity of each network. If it looks to be getting too complex, bin into smaller toxes
+
+* For each Main tox - restrict your Degree of Freedom by exposing out a few parms out to the parent tox - and only animate those parms. 
+	- So stick to this restriction
+	- If you want more degree of freedom, make a new tox, expose out more parms and animate those. Don't animate parms in the tox
+
+* So in this toe file, i'm starting with the MainV2 COMP, which is a simpler version of MainV1
+	- for all controls for the panels, I will expose out parameters instead of letting in input
+	- I want this to be a generator, that's why to control the panels, instead of inputting a chop with channels, I will use the parms to control them
+	- These parms will be well organized on the parm page
+	- And then from the outside you can use a constant going into a null with the null being bound to the parms

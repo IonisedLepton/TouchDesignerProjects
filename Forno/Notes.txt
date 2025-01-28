@@ -1,0 +1,5 @@
+## January 27, 2025
+
+* Stems from this tutorial: https://www.youtube.com/watch?v=5KuZohim2Co&
+
+* This is just another example of creating a point cloud via instancing -  albeit making a line instead of a cloud - and then using feedback to give it more texture and vibe
