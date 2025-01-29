@@ -12,3 +12,12 @@
 	- I want this to be a generator, that's why to control the panels, instead of inputting a chop with channels, I will use the parms to control them
 	- These parms will be well organized on the parm page
 	- And then from the outside you can use a constant going into a null with the null being bound to the parms
+
+## January 29, 2025
+
+* For the Individual Panels, instead of controlling them via parms, using an individual in chop for each of them cause that makes more sense
+
+* Need to modify the Panel toxes to be not tied to 4 panels
+
+* Trying to use the Animation COMP to come up with some animation, but man it feels quite clunky. Not the most natural way
+	- some sort of sequencing workflow would be so good actually
