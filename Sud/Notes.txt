@@ -21,3 +21,14 @@
 
 * Trying to use the Animation COMP to come up with some animation, but man it feels quite clunky. Not the most natural way
 	- some sort of sequencing workflow would be so good actually
+
+## February 05, 2025
+
+* Added the 'Perspective Rectangle' tox, and put it in MainV2
+
+## February 06, 2025
+* To use the 'Input' parm that I added on my COMPs to get the CHOP input via a parm instead of the input - since TD doesn't have a direct way of making the CHOP from the op path, I created a script CHOP in 'perspectiveRectangles' COMP to create the CHOP channels from the input path
+	- Honestly, working really well
+	- I could use this for other toxes of mine
+
+* Added an Annotate Parm in the tox to keep track of version. Need a better workflow, but this is fine for now
