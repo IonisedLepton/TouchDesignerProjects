@@ -32,3 +32,10 @@
 	- I could use this for other toxes of mine
 
 * Added an Annotate Parm in the tox to keep track of version. Need a better workflow, but this is fine for now
+
+## March 04, 2025
+* Added the Input parm to individual panels too
+
+* Mapped all the keyboard ins to the input constant for some testing and such
+
+* Now, I really need to think about the goal and big picture, and take this COMP there. Right now it doesn't really do anything
