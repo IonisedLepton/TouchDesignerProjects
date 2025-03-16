@@ -36,9 +36,21 @@
 ## February 12, 2025
 * Overhauled the LFOWholePanel toxes to not be tied to 4 panels
 
-## March 04, 2025
+## March 05, 2025
 * Added the Input parm to individual panels too
 
 * Mapped all the keyboard ins to the input constant for some testing and such
 
 * Now, I really need to think about the goal and big picture, and take this COMP there. Right now it doesn't really do anything
+
+## March 06, 2025
+* Found a Step Sequencer for TD
+	- https://derivative.ca/community-post/asset/step-sequencer/66089
+	- It is fucking amazing for driving each trigger
+
+## March 10, 2025
+* Wanna dive deeper into sun projection style
+
+* Looked for room photos, but couldn't find any that would fit
+	- so tried a random texture like photo from unsplash
+	- doesn't look like the sun thing, but looks cool composited with the panels

@@ -1,0 +1,28 @@
+## March 14, 2025
+
+* Set the project up so that I can project onto the corner roof of my room
+	- white solid panels, looking really cool
+
+* But i'm not sure where to take it from there
+
+* I wanna explore the sunlight idea. But frankly, that is a bit hard
+	- I should explore that independently, with a simple solid single surface projection i.e. an easy situation, and then take it from there
+
+* So for this corner-roof, if I don't want to do sunlight, then what can I do
+
+
+* I feel like since my overall panel layout is complex, I don't have much room to make each individual panel complex - might have to keep it simple
+
+* I can do like variations on the constant panel i.e. giving it texture or something
+
+## March 15, 2025
+
+* Brought in the main CompositedPanelAV from Sud
+
+* I think I like the workflow of the main big panel being like the main screen, and the other smaller panels just being constant color panels
+
+* For now, have put in the Individual Lines panels for my main panel
+
+* I think I wanna go in the direction of simpler individual layers, but more number of layers
+
+* Also updated all individual COMPs in CompositedPanelAV to put standin channels when no input is there so that I don't get random output
