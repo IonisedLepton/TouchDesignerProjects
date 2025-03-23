@@ -26,3 +26,46 @@
 * I think I wanna go in the direction of simpler individual layers, but more number of layers
 
 * Also updated all individual COMPs in CompositedPanelAV to put standin channels when no input is there so that I don't get random output
+
+## March 17, 2025
+
+* For the smaller panels, I think well tuned and sized thin panels looks quite good
+	- but can't combine thin panels with solid panels - that doesn't look good
+
+
+* Looking at Nonotak's works, for the main panel, a bunch of extremely thin indvidual panels might also look really good
+	- even for the smaller panels
+
+* And perhaps also the broken lines kinda style
+
+* Also observing that with thin panels, I can only have like one small panel be playing at one time. so for eg, can't have the main panel and a smaller panel both be playing thin panels together
+
+* With just this combination of thin panels and solid panels on all my window panels, with effective and tasteful minimalistic use, I can get a lot of degree of freedom out
+
+## March 20, 2025
+
+* Copied the CompositedPanelsAV i.e. MainV2 for all the projected panels.
+	- I really should make it external or Clone or something
+
+* Also need to figure out a proper timeline workflow so that I can actually arrange some sequences in
+	- The stepSequencer is fantastic, but i need to figure out how to use it for a period of like 10 or 30 seconds
+
+* Something is off with this Sequencer - if I increase the number of measures, it still ends up taking the same amount of time to go through the entire length, no matter if many measures or few - resulting in each quarter or eight note to get smaller or bigger
+	- one stupid workaround is to use a ramp LFO to act as the timer. Then if you double the number of measures, halve the LFO frequency to make sure a single measure takes the same time
+
+### Local Action Vector
+* [x] Start using the Cloning/Externalization workflow for the CompositedPanelsAV tox
+* [ ] Figure out a nice timeline workflow for writing 30 secondish sequences
+* [ ] Overhaul PanelsIndividual to have arbitrary number of panels
+* [ ] Make the broken lines style component
+
+## March 23, 2025
+
+* Understood cloning and External Tox workflow
+	- Both can work well for me, at least for the case of CompositedPanelsAV
+	- However, important to note, with external tox workflow, if I modify a tox, save it, and then reload all of the other copies - it also resets the parm values of all the copies to that of the main saved external tox. To avoid this, and retain your parm values, toggle 'Reload Custom Parameters' and 'Reload Built-In Parameters' to off
+
+* For `CompositedPanelsAV` - i'm going with the workflow of: having one externalized `CompositedPanelsAV.tox` loaded in which will be updated for changes. Making this the master, and making all other clones. Whenever I want to update the component, I just updated the master and save it, that's all
+	- Same for `LFOWholePanel` and `PadControlledPanel`
+
+* External toxes over Clones would be great for managing toxes across multiple toe files
