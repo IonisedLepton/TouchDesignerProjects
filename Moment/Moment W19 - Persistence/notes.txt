@@ -69,3 +69,12 @@
 	- Same for `LFOWholePanel` and `PadControlledPanel`
 
 * External toxes over Clones would be great for managing toxes across multiple toe files
+
+* Something is up with my loaded sequencer right now, the sequence doesn't save upon reloading the toe
+
+* An interesting idea with the Sequencers would be to be able to switch through multiple Sequence presets
+	- I could achieve that by putting several Sequencers in a Container COMP connected to switches. And from the outside, I could just switch
+
+### local Action Vector
+* [ ] Fix the Sequencer saving issue
+* [ ] Set up switching through Sequencer presets
