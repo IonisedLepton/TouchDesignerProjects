@@ -105,3 +105,10 @@
 * Messed around with putting the Sequencers inside a Container and building the long Sequencer UI that way. Honestly, kinda working
 	- I actually quickly made one
 	- It's got scrollbars and fixed perfectly in the screen. Very Very good
+
+## March 27, 2025
+* The new UI is really really good. Sure it still has limitations but at this point I need to shut up and just do it instead of whining about each small problem.
+
+* Tigthened the Attack and Release a bit
+
+* Because i've been at the same panel workflow for so many days - getting bored now
