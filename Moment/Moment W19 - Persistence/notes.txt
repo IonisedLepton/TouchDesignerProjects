@@ -76,5 +76,32 @@
 	- I could achieve that by putting several Sequencers in a Container COMP connected to switches. And from the outside, I could just switch
 
 ### local Action Vector
-* [ ] Fix the Sequencer saving issue
+* [x] Fix the Sequencer saving issue
 * [ ] Set up switching through Sequencer presets
+
+## March 24, 2025
+* The Sequencer bug is happening due to 'Enable External tox' toggle being on
+	- Even if I copy and paste the node, the sequence doesn't get saved
+	- But if that toggle is off, then it does get saved
+	- I suppose this makes sense since the sequence that is drawn in is not one of the parms, but is actually modifying the internal state of the external tox, which if I don't properly save, it resets every time the external tox is loaded
+	- So turning that toggle off fixes the issue
+	- Interestingly, upon cloning the Sequencers from a main Sequencer, the clones retain their sequence and don't follow the sequence of the master, even upon reloading
+	- So to that end, I made a main Master Sequencer and then cloned all of the Sequencers for each panel from that
+	- However, it seems like the parms don't work well under cloning. The reset parm wasn't resetting the clones. And if I had the 'Use Input' parm On for the clones, I would get two playheads. Fixed it by making sure that the master also behaves exactly like the clones. I.e. when I reset the clones, I also reset the master. I 'Use Input' on the master, and run its playhead via the LFO
+	- Ughh, this Sequencer has issues.
+	- And with all the above, I'm still seeing issues
+
+## March 25, 2025
+
+* The bug with the Sequencer happens in part due to the fact that the parameters of the component control and change the physical network inside the component due to replicators and scripts, changing the number of nodes, connections and all - so I guess if the tox is external and I don't save it each time I quit, that somehow ends up with issues
+
+* The shitty solution for now is to not have the Master be an external tox. But the clones are still cloned, so I have at least that workflow
+	- actually, this doesn't work either
+
+## March 26, 2025
+* For the Sequencer - screw external tox and cloning for now - we'll just copy it all
+	- had to re copy all the sequencers cause the earlier external and cloning toggling on was making the existing ones misbehave
+
+* Messed around with putting the Sequencers inside a Container and building the long Sequencer UI that way. Honestly, kinda working
+	- I actually quickly made one
+	- It's got scrollbars and fixed perfectly in the screen. Very Very good
