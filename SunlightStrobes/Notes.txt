@@ -1,0 +1,11 @@
+## June 27, 2026
+
+* Good success at implementing this idea of strobing sunlight rays through a window
+
+* Looking really good
+
+* Using the projector's focus ring to blur more adds nicely to the effect
+
+* More than the noise, and the shape and whatever - I think what's working the most is the idea of shapeless-shapes strobing. The fact that i'm using a Ramp TOP to vignette so that the edges of each shape, and edges against the screen-size is never visible. This is looking very natural and cool
+
+* And as a result, as I'm messing around more with it, i'm finding that everything is looking good. The blurring was the magic, and with that, all forms - striations, lfo panels, noise panels etc - are looking good
